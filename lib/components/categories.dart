@@ -72,6 +72,5 @@ class CategoryCard extends StatelessWidget {
         ),
       ),
     );
-    ;
   }
 }
