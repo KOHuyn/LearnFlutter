@@ -1,3 +1,4 @@
+import 'package:e_commerce/screen/cart/cart_screen.dart';
 import 'package:e_commerce/screen/detail/detail_screen.dart';
 import 'package:e_commerce/screen/forgot_password/forgot_password_screen.dart';
 import 'package:e_commerce/screen/home/home_screen.dart';
@@ -12,5 +13,6 @@ final Map<String, WidgetBuilder> routes = {
   ForgotPasswordScreen.routeName: (context) => ForgotPasswordScreen(),
   LoginSuccessScreen.routeName: (context) => LoginSuccessScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
-  DetailsScreen.routeName: (context) => DetailsScreen()
+  DetailsScreen.routeName: (context) => DetailsScreen(),
+  CartScreen.routeName: (context) => CartScreen()
 };
