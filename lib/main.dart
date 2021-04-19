@@ -1,5 +1,6 @@
 import 'package:e_commerce/constants.dart';
 import 'package:e_commerce/routs.dart';
+import 'package:e_commerce/screen/profile/profile_screen.dart';
 import 'package:e_commerce/screen/splash/splash_screen.dart';
 import 'package:e_commerce/theme.dart';
 import 'package:flutter/material.dart';

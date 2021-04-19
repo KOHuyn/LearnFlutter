@@ -14,6 +14,8 @@ class Body extends StatelessWidget {
         Image.asset(
           "assets/images/success.png",
           height: SizeConfig.screenHeight * 0.4,
+          width: double.infinity,
+          fit: BoxFit.cover,
         ),
         SizedBox(
           height: SizeConfig.screenHeight * 0.08,
